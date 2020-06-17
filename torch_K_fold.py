@@ -4,6 +4,8 @@
 @author: exudingtao
 @time: 2020/6/12 6:29 下午
 '''
+import torch
+import torch.nn as nn
 
 
 def get_net(feature_num):
