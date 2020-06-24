@@ -117,5 +117,5 @@ def train_and_predict_rnn_pytorch(model, num_hiddens, vocab_size, device, corpus
 
 num_epochs, batch_size, lr, clipping_theta = 250, 32, 1e-3, 1e-2 # 注意这⾥的学习率设置
 pred_period, pred_len, prefixes = 50, 50, ['分开', '不分开']
-train_and_predict_rnn_pytorch(model, num_hiddens, vocab_size,device,corpus_indices, idx_to_char,char_to_idx,num_epochs,
-                              num_steps, lr,clipping_theta,batch_size, pred_period, pred_len,prefixes)
+train_and_predict_rnn_pytorch(model, num_hiddens, vocab_size, device, corpus_indices, idx_to_char, char_to_idx, num_epochs,
+                              num_steps, lr, clipping_theta, batch_size, pred_period, pred_len, prefixes)
